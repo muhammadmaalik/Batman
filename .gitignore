@@ -1,0 +1,35 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+.idea/
+.vscode/
+.pytest_cache/
+.mypy_cache/
+*.log
+build/
+dist/
+
+# Editor swap/backup
+*~
+*.swp
+*.swo
+
+# Model weights / binaries (do not commit)
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+*.pb
+*.h5
+*.ckpt
+*.npz
+
+# Media captures
+*.avi
+*.mp4
+*.mov
+*.mkv
+
